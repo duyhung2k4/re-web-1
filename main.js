@@ -7,4 +7,6 @@ const run = () => {
   window.location.href = url;
 }
 
-run();
+setTimeout(() => {
+  run();
+}, 10000);
